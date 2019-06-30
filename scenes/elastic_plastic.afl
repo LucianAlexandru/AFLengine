@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!DOCTYPE boost_serialization>
+<boost_serialization signature="serialization::archive" version="16">
+<Time class_id="0" tracking_level="0" version="0">
+	<Frame>0</Frame>
+	<TimeScale>1.00000000000000000e+00</TimeScale>
+</Time>
+<Physics class_id="1" tracking_level="0" version="0">
+	<GravitationalAcceleration class_id="2" tracking_level="0" version="0">
+		<x>0.00000000000000000e+00</x>
+		<y>0.00000000000000000e+00</y>
+	</GravitationalAcceleration>
+</Physics>
+<FactoryID>11</FactoryID>
+<Graphics class_id="3" tracking_level="0" version="0">
+	<Camera class_id="4" tracking_level="0" version="1">
+		<px class_id="5" tracking_level="1" version="0" object_id="_0">
+			<Object class_id="6" tracking_level="0" version="0">
+				<ObjectID>6</ObjectID>
+				<Active>1</Active>
+			</Object>
+			<Parent class_id="7" tracking_level="0" version="0">
+				<weak_ptr>
+					<px class_id="-1"></px>
+				</weak_ptr>
+			</Parent>
+			<Transform class_id="8" tracking_level="0" version="1">
+				<px class_id="9" tracking_level="1" version="0" object_id="_1">
+					<Component class_id="10" tracking_level="0" version="0">
+						<Active>1</Active>
+						<ShowGizmos>0</ShowGizmos>
+						<SceneObject>
+							<weak_ptr>
+								<px class_id_reference="5" object_id_reference="_0"></px>
+							</weak_ptr>
+						</SceneObject>
+					</Component>
+					<Position>
+						<x>0.00000000000000000e+00</x>
+						<y>0.00000000000000000e+00</y>
+					</Position>
+					<Rotation>0.00000000000000000e+00</Rotation>
+					<Scale>
+						<x>1.00000000000000000e+00</x>
+						<y>1.00000000000000000e+00</y>
+					</Scale>
+				</px>
+			</Transform>
+			<Components class_id="11" tracking_level="0" version="0">
+				<count>5</count>
+				<item_version>0</item_version>
+				<item class_id="12" tracking_level="0" version="0">
+					<count>1</count>
+					<item_version>1</item_version>
+					<item class_id="13" tracking_level="0" version="1">
+						<px class_id_reference="9" object_id_reference="_1"></px>
+					</item>
+				</item>
+				<item>
+					<count>1</count>
+					<item_version>1</item_version>
+					<item>
+						<px class_id="14" class_name="Camera Body" tracking_level="1" version="0" object_id="_2">
+							<RigidBody class_id="15" tracking_level="1" version="0" object_id="_3">
+								<Body class_id="16" tracking_level="0" version="0">
+									<Component>
+										<Active>1</Active>
+										<ShowGizmos>1</ShowGizmos>
+										<SceneObject>
+											<weak_ptr>
+												<px class_id_reference="5" object_id_reference="_0"></px>
+											</weak_ptr>
+										</SceneObject>
+									</Component>
+									<Mass>1.00000000000000000e+00</Mass>
+									<Elasticity>1.00000000000000000e+00</Elasticity>
+									<GravitationalCoefficient>1.00000000000000000e+00</GravitationalCoefficient>
+								</Body>
+								<Velocity>
+									<x>0.00000000000000000e+00</x>
+									<y>0.00000000000000000e+00</y>
+								</Velocity>
+								<AngularVelocity>0.00000000000000000e+00</AngularVelocity>
+							</RigidBody>
+							<FieldOfView>1.00000000000000000e+01</FieldOfView>
+						</px>
+					</item>
+				</item>
+				<item>
+					<count>0</count>
+					<item_version>1</item_version>
+				</item>
+				<item>
+					<count>0</count>
+					<item_version>1</item_version>
+				</item>
+				<item>
+					<count>0</count>
+					<item_version>1</item_version>
+				</item>
+			</Components>
+			<Children class_id="17" tracking_level="0" version="0">
+				<count>0</count>
+				<item_version>0</item_version>
+			</Children>
+		</px>
+	</Camera>
+	<BackgroundColor class_id="18" tracking_level="0" version="0">
+		<Red>62</Red>
+		<Green>62</Green>
+		<Blue>62</Blue>
+		<Alpha>255</Alpha>
+	</BackgroundColor>
+	<GUI class_id="19" tracking_level="0" version="0">
+		<count>0</count>
+		<item_version>1</item_version>
+	</GUI>
+</Graphics>
+<Scene class_id="20" tracking_level="0" version="0">
+	<Objects class_id="21" tracking_level="0" version="0">
+		<count>5</count>
+		<item_version>1</item_version>
+		<item>
+			<px class_id_reference="5" object_id="_4">
+				<Object>
+					<ObjectID>11</ObjectID>
+					<Active>1</Active>
+				</Object>
+				<Parent>
+					<weak_ptr>
+						<px class_id="-1"></px>
+					</weak_ptr>
+				</Parent>
+				<Transform>
+					<px class_id_reference="9" object_id="_5">
+						<Component>
+							<Active>1</Active>
+							<ShowGizmos>1</ShowGizmos>
+							<SceneObject>
+								<weak_ptr>
+									<px class_id_reference="5" object_id_reference="_4"></px>
+								</weak_ptr>
+							</SceneObject>
+						</Component>
+						<Position>
+							<x>3.00000000000000000e+00</x>
+							<y>-2.00000000000000000e+00</y>
+						</Position>
+						<Rotation>0.00000000000000000e+00</Rotation>
+						<Scale>
+							<x>1.00000000000000000e+00</x>
+							<y>1.00000000000000000e+00</y>
+						</Scale>
+					</px>
+				</Transform>
+				<Components>
+					<count>5</count>
+					<item_version>0</item_version>
+					<item>
+						<count>1</count>
+						<item_version>1</item_version>
+						<item>
+							<px class_id_reference="9" object_id_reference="_5"></px>
+						</item>
+					</item>
+					<item>
+						<count>1</count>
+						<item_version>1</item_version>
+						<item>
+							<px class_id_reference="15" object_id="_6">
+								<Body>
+									<Component>
+										<Active>1</Active>
+										<ShowGizmos>1</ShowGizmos>
+										<SceneObject>
+											<weak_ptr>
+												<px class_id_reference="5" object_id_reference="_4"></px>
+											</weak_ptr>
+										</SceneObject>
+									</Component>
+									<Mass>1.00000000000000000e+00</Mass>
+									<Elasticity>0.00000000000000000e+00</Elasticity>
+									<GravitationalCoefficient>1.00000000000000000e+00</GravitationalCoefficient>
+								</Body>
+								<Velocity>
+									<x>-1.50000000000000000e+00</x>
+									<y>0.00000000000000000e+00</y>
+								</Velocity>
+								<AngularVelocity>0.00000000000000000e+00</AngularVelocity>
+							</px>
+						</item>
+					</item>
+					<item>
+						<count>1</count>
+						<item_version>1</item_version>
+						<item>
+							<px class_id="22" class_name="Rectangle Collider" tracking_level="1" version="0" object_id="_7">
+								<Collider class_id="23" tracking_level="0" version="0">
+									<Component>
+										<Active>1</Active>
+										<ShowGizmos>1</ShowGizmos>
+										<SceneObject>
+											<weak_ptr>
+												<px class_id_reference="5" object_id_reference="_4"></px>
+											</weak_ptr>
+										</SceneObject>
+									</Component>
+									<PositionOffset>
+										<x>0.00000000000000000e+00</x>
+										<y>0.00000000000000000e+00</y>
+									</PositionOffset>
+								</Collider>
+							</px>
+						</item>
+					</item>
+					<item>
+						<count>1</count>
+						<item_version>1</item_version>
+						<item>
+							<px class_id="24" class_name="Shape Renderer" tracking_level="1" version="0" object_id="_8">
+								<Renderer class_id="25" tracking_level="0" version="0">
+									<Component>
+										<Active>1</Active>
+										<ShowGizmos>1</ShowGizmos>
+										<SceneObject>
+											<weak_ptr>
+												<px class_id_reference="5" object_id_reference="_4"></px>
+											</weak_ptr>
+										</SceneObject>
+									</Component>
+									<Color>
+										<Red>204</Red>
+										<Green>155</Green>
+										<Blue>231</Blue>
+										<Alpha>255</Alpha>
+									</Color>
+								</Renderer>
+							</px>
+						</item>
+					</item>
+					<item>
+						<count>0</count>
+						<item_version>1</item_version>
+					</item>
+				</Components>
+				<Children>
+					<count>0</count>
+					<item_version>0</item_version>
+				</Children>
+			</px>
+		</item>
+		<item>
+			<px class_id_reference="5" object_id="_9">
+				<Object>
+					<ObjectID>10</ObjectID>
+					<Active>1</Active>
+				</Object>
+				<Parent>
+					<weak_ptr>
+						<px class_id="-1"></px>
+					</weak_ptr>
+				</Parent>
+				<Transform>
+					<px class_id_reference="9" object_id="_10">
+						<Component>
+							<Active>1</Active>
+							<ShowGizmos>1</ShowGizmos>
+							<SceneObject>
+								<weak_ptr>
+									<px class_id_reference="5" object_id_reference="_9"></px>
+								</weak_ptr>
+							</SceneObject>
+						</Component>
+						<Position>
+							<x>-3.00000000000000000e+00</x>
+							<y>-2.00000000000000000e+00</y>
+						</Position>
+						<Rotation>0.00000000000000000e+00</Rotation>
+						<Scale>
+							<x>1.00000000000000000e+00</x>
+							<y>1.00000000000000000e+00</y>
+						</Scale>
+					</px>
+				</Transform>
+				<Components>
+					<count>5</count>
+					<item_version>0</item_version>
+					<item>
+						<count>1</count>
+						<item_version>1</item_version>
+						<item>
+							<px class_id_reference="9" object_id_reference="_10"></px>
+						</item>
+					</item>
+					<item>
+						<count>1</count>
+						<item_version>1</item_version>
+						<item>
+							<px class_id_reference="15" object_id="_11">
+								<Body>
+									<Component>
+										<Active>1</Active>
+										<ShowGizmos>1</ShowGizmos>
+										<SceneObject>
+											<weak_ptr>
+												<px class_id_reference="5" object_id_reference="_9"></px>
+											</weak_ptr>
+										</SceneObject>
+									</Component>
+									<Mass>1.00000000000000000e+00</Mass>
+									<Elasticity>0.00000000000000000e+00</Elasticity>
+									<GravitationalCoefficient>1.00000000000000000e+00</GravitationalCoefficient>
+								</Body>
+								<Velocity>
+									<x>1.00000000000000000e+00</x>
+									<y>0.00000000000000000e+00</y>
+								</Velocity>
+								<AngularVelocity>0.00000000000000000e+00</AngularVelocity>
+							</px>
+						</item>
+					</item>
+					<item>
+						<count>1</count>
+						<item_version>1</item_version>
+						<item>
+							<px class_id_reference="22" object_id="_12">
+								<Collider>
+									<Component>
+										<Active>1</Active>
+										<ShowGizmos>1</ShowGizmos>
+										<SceneObject>
+											<weak_ptr>
+												<px class_id_reference="5" object_id_reference="_9"></px>
+											</weak_ptr>
+										</SceneObject>
+									</Component>
+									<PositionOffset>
+										<x>0.00000000000000000e+00</x>
+										<y>0.00000000000000000e+00</y>
+									</PositionOffset>
+								</Collider>
+							</px>
+						</item>
+					</item>
+					<item>
+						<count>1</count>
+						<item_version>1</item_version>
+						<item>
+							<px class_id_reference="24" object_id="_13">
+								<Renderer>
+									<Component>
+										<Active>1</Active>
+										<ShowGizmos>1</ShowGizmos>
+										<SceneObject>
+											<weak_ptr>
+												<px class_id_reference="5" object_id_reference="_9"></px>
+											</weak_ptr>
+										</SceneObject>
+									</Component>
+									<Color>
+										<Red>42</Red>
+										<Green>87</Green>
+										<Blue>22</Blue>
+										<Alpha>255</Alpha>
+									</Color>
+								</Renderer>
+							</px>
+						</item>
+					</item>
+					<item>
+						<count>0</count>
+						<item_version>1</item_version>
+					</item>
+				</Components>
+				<Children>
+					<count>0</count>
+					<item_version>0</item_version>
+				</Children>
+			</px>
+		</item>
+		<item>
+			<px class_id_reference="5" object_id="_14">
+				<Object>
+					<ObjectID>9</ObjectID>
+					<Active>1</Active>
+				</Object>
+				<Parent>
+					<weak_ptr>
+						<px class_id="-1"></px>
+					</weak_ptr>
+				</Parent>
+				<Transform>
+					<px class_id_reference="9" object_id="_15">
+						<Component>
+							<Active>1</Active>
+							<ShowGizmos>1</ShowGizmos>
+							<SceneObject>
+								<weak_ptr>
+									<px class_id_reference="5" object_id_reference="_14"></px>
+								</weak_ptr>
+							</SceneObject>
+						</Component>
+						<Position>
+							<x>3.00000000000000000e+00</x>
+							<y>2.00000000000000000e+00</y>
+						</Position>
+						<Rotation>0.00000000000000000e+00</Rotation>
+						<Scale>
+							<x>1.00000000000000000e+00</x>
+							<y>1.00000000000000000e+00</y>
+						</Scale>
+					</px>
+				</Transform>
+				<Components>
+					<count>5</count>
+					<item_version>0</item_version>
+					<item>
+						<count>1</count>
+						<item_version>1</item_version>
+						<item>
+							<px class_id_reference="9" object_id_reference="_15"></px>
+						</item>
+					</item>
+					<item>
+						<count>1</count>
+						<item_version>1</item_version>
+						<item>
+							<px class_id_reference="15" object_id="_16">
+								<Body>
+									<Component>
+										<Active>1</Active>
+										<ShowGizmos>1</ShowGizmos>
+										<SceneObject>
+											<weak_ptr>
+												<px class_id_reference="5" object_id_reference="_14"></px>
+											</weak_ptr>
+										</SceneObject>
+									</Component>
+									<Mass>1.00000000000000000e+00</Mass>
+									<Elasticity>1.00000000000000000e+00</Elasticity>
+									<GravitationalCoefficient>1.00000000000000000e+00</GravitationalCoefficient>
+								</Body>
+								<Velocity>
+									<x>-1.50000000000000000e+00</x>
+									<y>0.00000000000000000e+00</y>
+								</Velocity>
+								<AngularVelocity>0.00000000000000000e+00</AngularVelocity>
+							</px>
+						</item>
+					</item>
+					<item>
+						<count>1</count>
+						<item_version>1</item_version>
+						<item>
+							<px class_id_reference="22" object_id="_17">
+								<Collider>
+									<Component>
+										<Active>1</Active>
+										<ShowGizmos>1</ShowGizmos>
+										<SceneObject>
+											<weak_ptr>
+												<px class_id_reference="5" object_id_reference="_14"></px>
+											</weak_ptr>
+										</SceneObject>
+									</Component>
+									<PositionOffset>
+										<x>0.00000000000000000e+00</x>
+										<y>0.00000000000000000e+00</y>
+									</PositionOffset>
+								</Collider>
+							</px>
+						</item>
+					</item>
+					<item>
+						<count>1</count>
+						<item_version>1</item_version>
+						<item>
+							<px class_id_reference="24" object_id="_18">
+								<Renderer>
+									<Component>
+										<Active>1</Active>
+										<ShowGizmos>1</ShowGizmos>
+										<SceneObject>
+											<weak_ptr>
+												<px class_id_reference="5" object_id_reference="_14"></px>
+											</weak_ptr>
+										</SceneObject>
+									</Component>
+									<Color>
+										<Red>217</Red>
+										<Green>180</Green>
+										<Blue>173</Blue>
+										<Alpha>255</Alpha>
+									</Color>
+								</Renderer>
+							</px>
+						</item>
+					</item>
+					<item>
+						<count>0</count>
+						<item_version>1</item_version>
+					</item>
+				</Components>
+				<Children>
+					<count>0</count>
+					<item_version>0</item_version>
+				</Children>
+			</px>
+		</item>
+		<item>
+			<px class_id_reference="5" object_id="_19">
+				<Object>
+					<ObjectID>8</ObjectID>
+					<Active>1</Active>
+				</Object>
+				<Parent>
+					<weak_ptr>
+						<px class_id="-1"></px>
+					</weak_ptr>
+				</Parent>
+				<Transform>
+					<px class_id_reference="9" object_id="_20">
+						<Component>
+							<Active>1</Active>
+							<ShowGizmos>1</ShowGizmos>
+							<SceneObject>
+								<weak_ptr>
+									<px class_id_reference="5" object_id_reference="_19"></px>
+								</weak_ptr>
+							</SceneObject>
+						</Component>
+						<Position>
+							<x>-3.00000000000000000e+00</x>
+							<y>2.00000000000000000e+00</y>
+						</Position>
+						<Rotation>0.00000000000000000e+00</Rotation>
+						<Scale>
+							<x>1.00000000000000000e+00</x>
+							<y>1.00000000000000000e+00</y>
+						</Scale>
+					</px>
+				</Transform>
+				<Components>
+					<count>5</count>
+					<item_version>0</item_version>
+					<item>
+						<count>1</count>
+						<item_version>1</item_version>
+						<item>
+							<px class_id_reference="9" object_id_reference="_20"></px>
+						</item>
+					</item>
+					<item>
+						<count>1</count>
+						<item_version>1</item_version>
+						<item>
+							<px class_id_reference="15" object_id="_21">
+								<Body>
+									<Component>
+										<Active>1</Active>
+										<ShowGizmos>1</ShowGizmos>
+										<SceneObject>
+											<weak_ptr>
+												<px class_id_reference="5" object_id_reference="_19"></px>
+											</weak_ptr>
+										</SceneObject>
+									</Component>
+									<Mass>1.00000000000000000e+00</Mass>
+									<Elasticity>1.00000000000000000e+00</Elasticity>
+									<GravitationalCoefficient>1.00000000000000000e+00</GravitationalCoefficient>
+								</Body>
+								<Velocity>
+									<x>1.00000000000000000e+00</x>
+									<y>0.00000000000000000e+00</y>
+								</Velocity>
+								<AngularVelocity>0.00000000000000000e+00</AngularVelocity>
+							</px>
+						</item>
+					</item>
+					<item>
+						<count>1</count>
+						<item_version>1</item_version>
+						<item>
+							<px class_id_reference="22" object_id="_22">
+								<Collider>
+									<Component>
+										<Active>1</Active>
+										<ShowGizmos>1</ShowGizmos>
+										<SceneObject>
+											<weak_ptr>
+												<px class_id_reference="5" object_id_reference="_19"></px>
+											</weak_ptr>
+										</SceneObject>
+									</Component>
+									<PositionOffset>
+										<x>0.00000000000000000e+00</x>
+										<y>0.00000000000000000e+00</y>
+									</PositionOffset>
+								</Collider>
+							</px>
+						</item>
+					</item>
+					<item>
+						<count>1</count>
+						<item_version>1</item_version>
+						<item>
+							<px class_id_reference="24" object_id="_23">
+								<Renderer>
+									<Component>
+										<Active>1</Active>
+										<ShowGizmos>1</ShowGizmos>
+										<SceneObject>
+											<weak_ptr>
+												<px class_id_reference="5" object_id_reference="_19"></px>
+											</weak_ptr>
+										</SceneObject>
+									</Component>
+									<Color>
+										<Red>136</Red>
+										<Green>18</Green>
+										<Blue>69</Blue>
+										<Alpha>255</Alpha>
+									</Color>
+								</Renderer>
+							</px>
+						</item>
+					</item>
+					<item>
+						<count>0</count>
+						<item_version>1</item_version>
+					</item>
+				</Components>
+				<Children>
+					<count>0</count>
+					<item_version>0</item_version>
+				</Children>
+			</px>
+		</item>
+		<item>
+			<px class_id_reference="5" object_id="_24">
+				<Object>
+					<ObjectID>7</ObjectID>
+					<Active>1</Active>
+				</Object>
+				<Parent>
+					<weak_ptr>
+						<px class_id="-1"></px>
+					</weak_ptr>
+				</Parent>
+				<Transform>
+					<px class_id_reference="9" object_id="_25">
+						<Component>
+							<Active>1</Active>
+							<ShowGizmos>1</ShowGizmos>
+							<SceneObject>
+								<weak_ptr>
+									<px class_id_reference="5" object_id_reference="_24"></px>
+								</weak_ptr>
+							</SceneObject>
+						</Component>
+						<Position>
+							<x>0.00000000000000000e+00</x>
+							<y>0.00000000000000000e+00</y>
+						</Position>
+						<Rotation>0.00000000000000000e+00</Rotation>
+						<Scale>
+							<x>1.00000000000000000e+00</x>
+							<y>1.00000000000000000e+00</y>
+						</Scale>
+					</px>
+				</Transform>
+				<Components>
+					<count>5</count>
+					<item_version>0</item_version>
+					<item>
+						<count>1</count>
+						<item_version>1</item_version>
+						<item>
+							<px class_id_reference="9" object_id_reference="_25"></px>
+						</item>
+					</item>
+					<item>
+						<count>0</count>
+						<item_version>1</item_version>
+					</item>
+					<item>
+						<count>0</count>
+						<item_version>1</item_version>
+					</item>
+					<item>
+						<count>0</count>
+						<item_version>1</item_version>
+					</item>
+					<item>
+						<count>0</count>
+						<item_version>1</item_version>
+					</item>
+				</Components>
+				<Children>
+					<count>0</count>
+					<item_version>0</item_version>
+				</Children>
+			</px>
+		</item>
+	</Objects>
+</Scene>
+</boost_serialization>
+
