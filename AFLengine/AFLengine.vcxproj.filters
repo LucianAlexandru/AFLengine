@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Components">
+      <UniqueIdentifier>{b291cc3e-b9f5-41d7-bbc8-f1347cd1743d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers">
+      <UniqueIdentifier>{1a28268c-6d22-4524-83c3-7d815acd2997}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Transform">
+      <UniqueIdentifier>{2464931b-ec09-4085-a747-dcf79a101932}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Collider">
+      <UniqueIdentifier>{dfd6a57b-5547-4f2e-9dd8-5dc7a228987b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Commons">
+      <UniqueIdentifier>{38059915-ac0e-4ad0-8c07-f61dc5df09ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Defines">
+      <UniqueIdentifier>{789285ba-456d-4614-bc11-264e00cd14d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects">
+      <UniqueIdentifier>{82587bab-474a-47fd-97ce-a1314d4b812c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Body">
+      <UniqueIdentifier>{962c80b0-5341-4e5c-8e6e-401bbd6cf35d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{74df564c-c9cd-4ce7-af8d-752e80986563}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Renderer">
+      <UniqueIdentifier>{51c98d96-1c93-4755-b59f-721e441ce120}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Debug">
+      <UniqueIdentifier>{399eddcb-7160-4d79-a3dd-65ff5c00f91f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Constraints">
+      <UniqueIdentifier>{1b8eb8ef-046c-4e38-9c9d-a4b13e3f6178}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Components\Component.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\Scene.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Transform.cpp">
+      <Filter>Components\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="Commons\Vector2.cpp">
+      <Filter>Commons</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\Time_.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\Input.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\Engine.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\Physics.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Commons\TransformationMatrix.cpp">
+      <Filter>Commons</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\ObjectFactory.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Commons\AABoundingBox.cpp">
+      <Filter>Commons</Filter>
+    </ClCompile>
+    <ClCompile Include="Commons\Color.cpp">
+      <Filter>Commons</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\RigidBody.cpp">
+      <Filter>Components\Body</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\GUIText.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\CameraBody.cpp">
+      <Filter>Components\Body</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\GUIBox.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\SceneObject.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\Object.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\GUIObject.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\CircleCollider.cpp">
+      <Filter>Components\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Collider.cpp">
+      <Filter>Components\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\PointCollider.cpp">
+      <Filter>Components\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\PolygonCollider.cpp">
+      <Filter>Components\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\RectangleCollider.cpp">
+      <Filter>Components\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\ShapeRenderer.cpp">
+      <Filter>Components\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Renderer.cpp">
+      <Filter>Components\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\Graphics.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\Debug.cpp">
+      <Filter>Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\LogStream.cpp">
+      <Filter>Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\ConsoleLogStream.cpp">
+      <Filter>Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\WorldParser.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\FileLogStream.cpp">
+      <Filter>Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\TextureRenderer.cpp">
+      <Filter>Components\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Commons\ColliderExtras.cpp">
+      <Filter>Commons</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Body.cpp">
+      <Filter>Components\Body</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Constraint.cpp">
+      <Filter>Components\Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\ImmovableConstraint.cpp">
+      <Filter>Components\Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\SpringConstraint.cpp">
+      <Filter>Components\Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\FluidBody.cpp">
+      <Filter>Components\Body</Filter>
+    </ClCompile>
+    <ClCompile Include="Commons\Particle.cpp">
+      <Filter>Commons</Filter>
+    </ClCompile>
+    <ClCompile Include="Commons\IntVector2.cpp">
+      <Filter>Commons</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\FluidRenderer.cpp">
+      <Filter>Components\Renderer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Components\Component.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\Scene.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Commons\Vector2.h">
+      <Filter>Commons</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Transform.h">
+      <Filter>Components\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\ComponentDefines.h">
+      <Filter>Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\ManagerDefines.h">
+      <Filter>Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\Time_.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\Input.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\Physics.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\Engine.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Commons\TransformationMatrix.h">
+      <Filter>Commons</Filter>
+    </ClInclude>
+    <ClInclude Include="Commons\glutAdapter.h">
+      <Filter>Commons</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\ObjectFactory.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Commons\AABoundingBox.h">
+      <Filter>Commons</Filter>
+    </ClInclude>
+    <ClInclude Include="Commons\CommonDefines.h">
+      <Filter>Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="Commons\Color.h">
+      <Filter>Commons</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\RigidBody.h">
+      <Filter>Components\Body</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\GUIBox.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\GUIText.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\CameraBody.h">
+      <Filter>Components\Body</Filter>
+    </ClInclude>
+    <ClInclude Include="Commons\ViewportPosition.h">
+      <Filter>Commons</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\SceneObject.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\Object.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\GUIObject.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\ObjectDefines.h">
+      <Filter>Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\CircleCollider.h">
+      <Filter>Components\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Collider.h">
+      <Filter>Components\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\PointCollider.h">
+      <Filter>Components\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\PolygonCollider.h">
+      <Filter>Components\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\RectangleCollider.h">
+      <Filter>Components\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Renderer.h">
+      <Filter>Components\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\ShapeRenderer.h">
+      <Filter>Components\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\Graphics.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug\Debug.h">
+      <Filter>Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug\LogStream.h">
+      <Filter>Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug\ConsoleLogStream.h">
+      <Filter>Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\WorldParser.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\TextureRenderer.h">
+      <Filter>Components\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Commons\ColliderExtras.h">
+      <Filter>Commons</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Body.h">
+      <Filter>Components\Body</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug\FileLogStream.h">
+      <Filter>Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Constraint.h">
+      <Filter>Components\Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\ImmovableConstraint.h">
+      <Filter>Components\Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\SpringConstraint.h">
+      <Filter>Components\Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\FluidBody.h">
+      <Filter>Components\Body</Filter>
+    </ClInclude>
+    <ClInclude Include="Commons\Particle.h">
+      <Filter>Commons</Filter>
+    </ClInclude>
+    <ClInclude Include="Commons\IntVector2.h">
+      <Filter>Commons</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\FluidRenderer.h">
+      <Filter>Components\Renderer</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
